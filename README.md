@@ -7,10 +7,8 @@ This is the backend server for the ChatApp, built using **Node.js** and **Expres
 - [Technologies](#technologies)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Project Structure](#project-structure)
 - [Environment Variables](#environment-variables)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 - **User Authentication**: Secure login and signup using JWT and bcrypt.
