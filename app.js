@@ -19,12 +19,13 @@ import { errorMiddleware } from "./middlewares/error.js";
 
 import { v4 as uuid } from "uuid";
 import { cloudinaryConnect } from "./config/cloudinary.js";
-import { corsOptions } from "./constants/config.js";
+
 import { socketAuthenticator } from "./middlewares/auth.js";
 import { Message } from "./models/message.js";
 import adminRoute from "./routes/admin.js";
 import chatRoute from "./routes/chat.js";
 import userRoute from "./routes/user.js";
+import { corsOptions } from "./constants/config.js";
 
 dotenv.config();
 connectDB();
